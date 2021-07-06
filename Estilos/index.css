@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  background-color: #171514;
+  color: whitesmoke;
+}
+header {
+  background-color: #171514;
+}
+nav {
+  background-color: whitesmoke;
+}
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+.col h3 {
+  text-align: center;
+  color: #ffee05;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+hr {
+  display: none;
+  background-color: whitesmoke;
+}
+.parallax1 {
+  background-image: url("../Imagenes/Bota café.jpeg");
+  min-height: 300px;
+  margin-top: 20px;
+  filter: grayscale(0.7);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  background-image: url("../Imagenes/Bota negra.jpeg");
+  min-height: 300px;
+  margin-top: 20px;
+  filter: grayscale(0.7);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contenedor {
+  height: 20%;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+.contenedor .tarjeta {
+  max-width: 300px;
+  height: 215px;
+  position: relative;
+  background: whitesmoke;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-wrap: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+}
+.contenedor .tarjeta:hover{
+  height: 420px;
+} 
+.contenedor .tarjeta .imgBx {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  top: -60px;
+  left: 5px;
+  z-index: 1;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+.contenedor .tarjeta .imgBx img{
+  height: 260px;
+  width: 260px;
+  border-radius: 4px;
+
+}
+.contenedor .tarjeta .contenido{
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #171514;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+.contenedor .tarjeta:hover .contenido{
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.3s;
+}
+.card {
+  transition: 0.5s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card-image {
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-size: cover;
+}
+.Encuentranos {
+  text-align: center;
+}
+#MapaPequeño {
+  display: none;
+}
+figure img {
+  filter: grayscale(1);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.5s;
+}
+figure img:hover {
+  filter: grayscale(0);
+}
+.col h2 {
+  color: #ffee00;
+  transition: 0.3s;
+}
+.col h2:hover {
+  transform: scale(1.1);
+}
+.footerbd {
+  background-color: #99131b !important;
+  display: inline-flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+footer li {
+  list-style: none;
+  display: inline-block;
+}
+#Datos ul li{
+  margin: 0 20px;
+}
+@media (max-width: 600px) {
+  #carrusel {
+    display: none;
+  }
+  .parallax1 {
+    display: none;
+  }
+  .parallax2 {
+    display: none;
+  }
+  .HechosMano {
+    display: none;
+  }
+  .contenedor {
+    margin-top: 90px;
+    height: 50%;
+  }
+  #MapaGrande {
+    display: none;
+  }
+  #MapaPequeño {
+    display: initial;
+  }
+  .col h2:hover {
+    transform: scale(1);
+  }
+  hr {
+    display: flex;
+  }
+  #Invisible {
+    display: none;
+  }
+  #Menu {
+    display: none;
+  }
+}
