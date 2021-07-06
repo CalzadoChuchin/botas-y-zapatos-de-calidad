@@ -156,7 +156,7 @@ height: 500px;
   background-color: whitesmoke;
 }
 footer .map li{
-  list-style: inherit !important;
+  list-style-type: square !important;
   display: inherit !important;
 }
 footer .map li a{
