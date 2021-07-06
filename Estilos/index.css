@@ -89,7 +89,15 @@ hr {
   height: 260px;
   width: 260px;
   border-radius: 4px;
+  filter: grayscale(1);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.5s;
 
+}
+.contenedor .tarjeta .imgBx img:hover{
+filter: grayscale(0);
 }
 .contenedor .tarjeta .contenido{
   position: relative;
@@ -121,22 +129,18 @@ hr {
 .testimonio{
   text-align: center;
 }
+.testimonio p{
+  font-size: 30px;
+  color: #99131b;
+}
+.testimonio figure img{
+height: 500px;
+}
 .Encuentranos {
   text-align: center;
 }
 #MapaPequeño {
   display: none;
-}
-figure img {
-  filter: grayscale(1);
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transition: 0.5s;
-}
-figure img:hover {
-  filter: grayscale(0);
 }
 .col h2 {
   color: #ffee00;
