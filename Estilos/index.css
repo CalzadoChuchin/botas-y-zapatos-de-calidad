@@ -155,6 +155,10 @@ height: 500px;
   justify-content: space-between;
   background-color: whitesmoke;
 }
+footer .map #listaMap
+{
+list-style: none;
+}
 footer .map li{
   list-style-type: square !important;
   display: inherit !important;
