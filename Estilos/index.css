@@ -185,6 +185,9 @@ footer .map ul li a:hover{
   .parallax2 {
     display: none;
   }
+  .testimonio figure img{
+height: 250px;
+}
   .HechosMano {
     display: none;
   }
