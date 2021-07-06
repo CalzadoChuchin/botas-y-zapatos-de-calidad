@@ -159,12 +159,12 @@ footer .map #listaMap
 {
 list-style: none;
 }
-footer .map li a{
+footer .map ul li a{
   filter: opacity(0.8);
  color: whitesmoke;
   transition: 0.3s;
 }
-footer .map li a:hover{
+footer .map ul li a:hover{
  transform: scale(1.1);
   filter: opacity(1);
 }
