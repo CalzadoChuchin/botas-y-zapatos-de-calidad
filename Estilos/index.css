@@ -164,7 +164,13 @@ footer .map li{
   display: inherit !important;
 }
 footer .map li a{
- color: whitesmoke; 
+  filter: opacity(0.8);
+ color: whitesmoke;
+  transition: 0.3s;
+}
+footer .map li a:hover{
+ transform: scale(1.1);
+  filter: opacity(1);
 }
 #Datos li {
   list-style: none;
