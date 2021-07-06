@@ -155,11 +155,11 @@ height: 500px;
   justify-content: space-between;
   background-color: whitesmoke;
 }
-footer .map{
-  list-style: inherit;
-  display: inherit;
+footer .map li{
+  list-style: inherit !important;
+  display: inherit !important;
 }
-footer .map a{
+footer .map li a{
  color: whitesmoke; 
 }
 footer li {
