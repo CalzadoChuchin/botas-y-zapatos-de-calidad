@@ -129,7 +129,7 @@ filter: grayscale(0);
 .testimonio{
   text-align: center;
 }
-.testimonio p{
+.testimonio .textimonio{
   font-size: 30px;
   color: #99131b;
 }
