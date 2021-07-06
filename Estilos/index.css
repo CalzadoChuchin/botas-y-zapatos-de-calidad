@@ -159,10 +159,6 @@ footer .map #listaMap
 {
 list-style: none;
 }
-footer .map li{
-  list-style: square !important;
-  display: inherit !important;
-}
 footer .map li a{
   filter: opacity(0.8);
  color: whitesmoke;
