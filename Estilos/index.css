@@ -155,6 +155,9 @@ height: 500px;
   justify-content: space-between;
   background-color: whitesmoke;
 }
+.footer .map{
+list-style: none;
+}
 footer .map #listaMap
 {
 list-style: none;
